@@ -100,7 +100,7 @@ export async function chatOpenAI(messages) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer YOUR_API_KEY"
+      "Authorization": "Bearer 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"
     },
     body: JSON.stringify({
       model: "gpt-4o-mini",
